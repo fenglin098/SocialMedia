@@ -68,11 +68,9 @@ public class Main {
             System.out.println();
             System.out.print("Would you like to log into another social media account? (Y/N): ");
             answer = sc.next();
-            System.out.println();
 
         } while (answer.equalsIgnoreCase("y"));
         System.out.println("You have logged out! Goodbye <3");
-        System.out.println();
 
     }
 
